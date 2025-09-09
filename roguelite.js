@@ -6,7 +6,7 @@ let chDmg = 5;
 let perf = 1; // quantos inimigos o tiro pode acertar
 let speed = 4; // velocidade do personagem
 let vidamaxInimigo = 2; // vida máxima do inimigo
-let vidamaxchefe = 1;
+let vidamaxchefe = 100;
 let vidachefe = vidamaxchefe
 let vidaInimigo = vidamaxInimigo; // vida do inimigo
 let velInimigo = 2; // velocidade do inimigo
@@ -20,7 +20,7 @@ let recover = 0.5; // vida recuperada ao subir de nível
 let danoI = 1; // dano que o inimigo causa ao personagem
 let debuff = 1; // multiplicador de dificuldade
 let tamanahoTiro = 10; // tamanho do tiro
-let tempo = 11; // tempo em minutos
+let tempo = 20; // tempo em minutos
 let Cura = 0; //quantidade curada por item, se 0 = sem item
 let dinheiro = 0;//dinheiro gasto fora do jogo
 let Ganhar = 1;//Dinheiro Ganho ao matar um inimigo
